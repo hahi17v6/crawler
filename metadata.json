@@ -1,0 +1,6 @@
+{
+  "name": "CrawlSignal",
+  "description": "Micro-SaaS diagnostic tool identifying why search engines aren't showing your website and providing prioritized fixes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

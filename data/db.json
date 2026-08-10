@@ -1,0 +1,4441 @@
+{
+  "payments": {
+    "mock_cs_1786365303621_ltsjq": {
+      "id": "mock_cs_1786365303621_ltsjq",
+      "stripeSessionId": "mock_cs_1786365303621_ltsjq",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:35:03.621Z",
+      "updatedAt": "2026-08-10T12:35:03.621Z"
+    },
+    "mock_cs_1786365342347_o31xc": {
+      "id": "mock_cs_1786365342347_o31xc",
+      "stripeSessionId": "mock_cs_1786365342347_o31xc",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:35:42.347Z",
+      "updatedAt": "2026-08-10T12:35:42.347Z"
+    },
+    "cs_e2e_1786365342247": {
+      "id": "cs_e2e_1786365342247",
+      "stripeSessionId": "cs_e2e_1786365342247",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:35:42.347Z",
+      "updatedAt": "2026-08-10T12:35:42.347Z"
+    },
+    "mock_sub_1786365342348_0vxjz": {
+      "id": "mock_sub_1786365342348_0vxjz",
+      "stripeSessionId": "mock_sub_1786365342348_0vxjz",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:35:42.349Z",
+      "updatedAt": "2026-08-10T12:35:42.349Z"
+    },
+    "mock_cs_1786365419545_79bpl": {
+      "id": "mock_cs_1786365419545_79bpl",
+      "stripeSessionId": "mock_cs_1786365419545_79bpl",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:36:59.545Z",
+      "updatedAt": "2026-08-10T12:36:59.545Z"
+    },
+    "cs_e2e_1786365419442": {
+      "id": "cs_e2e_1786365419442",
+      "stripeSessionId": "cs_e2e_1786365419442",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:36:59.545Z",
+      "updatedAt": "2026-08-10T12:36:59.546Z"
+    },
+    "mock_sub_1786365419547_0rybj": {
+      "id": "mock_sub_1786365419547_0rybj",
+      "stripeSessionId": "mock_sub_1786365419547_0rybj",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:36:59.547Z",
+      "updatedAt": "2026-08-10T12:36:59.547Z"
+    },
+    "test_stripe_session_1786365777669_a": {
+      "id": "test_stripe_session_1786365777669_a",
+      "stripeSessionId": "test_stripe_session_1786365777669_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:42:57.670Z",
+      "updatedAt": "2026-08-10T12:42:57.670Z"
+    },
+    "dup_stripe_session_1786365777671": {
+      "id": "dup_stripe_session_1786365777671",
+      "stripeSessionId": "dup_stripe_session_1786365777671",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:42:57.671Z",
+      "updatedAt": "2026-08-10T12:42:57.671Z"
+    },
+    "mock_cs_1786365778959_lqkly": {
+      "id": "mock_cs_1786365778959_lqkly",
+      "stripeSessionId": "mock_cs_1786365778959_lqkly",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:42:58.960Z",
+      "updatedAt": "2026-08-10T12:42:58.960Z"
+    },
+    "cs_e2e_1786365778860": {
+      "id": "cs_e2e_1786365778860",
+      "stripeSessionId": "cs_e2e_1786365778860",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:42:58.960Z",
+      "updatedAt": "2026-08-10T12:42:58.961Z"
+    },
+    "mock_sub_1786365778962_g7vvr": {
+      "id": "mock_sub_1786365778962_g7vvr",
+      "stripeSessionId": "mock_sub_1786365778962_g7vvr",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:42:58.962Z",
+      "updatedAt": "2026-08-10T12:42:58.962Z"
+    },
+    "test_stripe_session_1786366110308_a": {
+      "id": "test_stripe_session_1786366110308_a",
+      "stripeSessionId": "test_stripe_session_1786366110308_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:48:30.309Z",
+      "updatedAt": "2026-08-10T12:48:30.309Z"
+    },
+    "dup_stripe_session_1786366110310": {
+      "id": "dup_stripe_session_1786366110310",
+      "stripeSessionId": "dup_stripe_session_1786366110310",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:48:30.310Z",
+      "updatedAt": "2026-08-10T12:48:30.310Z"
+    },
+    "mock_cs_1786366111582_ml4r0": {
+      "id": "mock_cs_1786366111582_ml4r0",
+      "stripeSessionId": "mock_cs_1786366111582_ml4r0",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:48:31.582Z",
+      "updatedAt": "2026-08-10T12:48:31.582Z"
+    },
+    "cs_e2e_1786366111483": {
+      "id": "cs_e2e_1786366111483",
+      "stripeSessionId": "cs_e2e_1786366111483",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:48:31.582Z",
+      "updatedAt": "2026-08-10T12:48:31.583Z"
+    },
+    "mock_sub_1786366111584_dqj8q": {
+      "id": "mock_sub_1786366111584_dqj8q",
+      "stripeSessionId": "mock_sub_1786366111584_dqj8q",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:48:31.584Z",
+      "updatedAt": "2026-08-10T12:48:31.584Z"
+    },
+    "test_stripe_session_1786366517266_a": {
+      "id": "test_stripe_session_1786366517266_a",
+      "stripeSessionId": "test_stripe_session_1786366517266_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:55:17.266Z",
+      "updatedAt": "2026-08-10T12:55:17.266Z"
+    },
+    "dup_stripe_session_1786366517267": {
+      "id": "dup_stripe_session_1786366517267",
+      "stripeSessionId": "dup_stripe_session_1786366517267",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:55:17.267Z",
+      "updatedAt": "2026-08-10T12:55:17.268Z"
+    },
+    "mock_cs_1786366518511_z6qmg": {
+      "id": "mock_cs_1786366518511_z6qmg",
+      "stripeSessionId": "mock_cs_1786366518511_z6qmg",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:55:18.511Z",
+      "updatedAt": "2026-08-10T12:55:18.511Z"
+    },
+    "cs_e2e_1786366518403": {
+      "id": "cs_e2e_1786366518403",
+      "stripeSessionId": "cs_e2e_1786366518403",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:55:18.512Z",
+      "updatedAt": "2026-08-10T12:55:18.512Z"
+    },
+    "mock_sub_1786366518513_60ls2": {
+      "id": "mock_sub_1786366518513_60ls2",
+      "stripeSessionId": "mock_sub_1786366518513_60ls2",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T12:55:18.513Z",
+      "updatedAt": "2026-08-10T12:55:18.513Z"
+    },
+    "test_stripe_session_1786367057018_a": {
+      "id": "test_stripe_session_1786367057018_a",
+      "stripeSessionId": "test_stripe_session_1786367057018_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:04:17.018Z",
+      "updatedAt": "2026-08-10T13:04:17.019Z"
+    },
+    "dup_stripe_session_1786367057020": {
+      "id": "dup_stripe_session_1786367057020",
+      "stripeSessionId": "dup_stripe_session_1786367057020",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:04:17.020Z",
+      "updatedAt": "2026-08-10T13:04:17.020Z"
+    },
+    "test_stripe_session_1786368435000_a": {
+      "id": "test_stripe_session_1786368435000_a",
+      "stripeSessionId": "test_stripe_session_1786368435000_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:27:15.000Z",
+      "updatedAt": "2026-08-10T13:27:15.000Z"
+    },
+    "dup_stripe_session_1786368435001": {
+      "id": "dup_stripe_session_1786368435001",
+      "stripeSessionId": "dup_stripe_session_1786368435001",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:27:15.002Z",
+      "updatedAt": "2026-08-10T13:27:15.002Z"
+    },
+    "mock_cs_1786368436365_p78ad": {
+      "id": "mock_cs_1786368436365_p78ad",
+      "stripeSessionId": "mock_cs_1786368436365_p78ad",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:27:16.365Z",
+      "updatedAt": "2026-08-10T13:27:16.365Z"
+    },
+    "cs_e2e_1786368436109": {
+      "id": "cs_e2e_1786368436109",
+      "stripeSessionId": "cs_e2e_1786368436109",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:27:16.366Z",
+      "updatedAt": "2026-08-10T13:27:16.367Z"
+    },
+    "mock_sub_1786368436368_twah3": {
+      "id": "mock_sub_1786368436368_twah3",
+      "stripeSessionId": "mock_sub_1786368436368_twah3",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:27:16.368Z",
+      "updatedAt": "2026-08-10T13:27:16.368Z"
+    },
+    "test_stripe_session_1786368605878_a": {
+      "id": "test_stripe_session_1786368605878_a",
+      "stripeSessionId": "test_stripe_session_1786368605878_a",
+      "email": "userA@alpha.com",
+      "targetUrl": "https://site-alpha.com",
+      "hostname": "site-alpha.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:30:05.878Z",
+      "updatedAt": "2026-08-10T13:30:05.878Z"
+    },
+    "dup_stripe_session_1786368605879": {
+      "id": "dup_stripe_session_1786368605879",
+      "stripeSessionId": "dup_stripe_session_1786368605879",
+      "email": "dup@idempotent.org",
+      "targetUrl": "https://idempotent-site.org",
+      "hostname": "idempotent-site.org",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:30:05.879Z",
+      "updatedAt": "2026-08-10T13:30:05.880Z"
+    },
+    "mock_cs_1786368607211_h9m11": {
+      "id": "mock_cs_1786368607211_h9m11",
+      "stripeSessionId": "mock_cs_1786368607211_h9m11",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:30:07.211Z",
+      "updatedAt": "2026-08-10T13:30:07.211Z"
+    },
+    "cs_e2e_1786368606965": {
+      "id": "cs_e2e_1786368606965",
+      "stripeSessionId": "cs_e2e_1786368606965",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:30:07.212Z",
+      "updatedAt": "2026-08-10T13:30:07.213Z"
+    },
+    "mock_sub_1786368607215_s1871": {
+      "id": "mock_sub_1786368607215_s1871",
+      "stripeSessionId": "mock_sub_1786368607215_s1871",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:30:07.215Z",
+      "updatedAt": "2026-08-10T13:30:07.215Z"
+    },
+    "mock_cs_1786369100435_bhj4a": {
+      "id": "mock_cs_1786369100435_bhj4a",
+      "stripeSessionId": "mock_cs_1786369100435_bhj4a",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:38:20.435Z",
+      "updatedAt": "2026-08-10T13:38:20.435Z"
+    },
+    "cs_e2e_1786369100202": {
+      "id": "cs_e2e_1786369100202",
+      "stripeSessionId": "cs_e2e_1786369100202",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:38:20.436Z",
+      "updatedAt": "2026-08-10T13:38:20.437Z"
+    },
+    "mock_sub_1786369100438_b6phv": {
+      "id": "mock_sub_1786369100438_b6phv",
+      "stripeSessionId": "mock_sub_1786369100438_b6phv",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:38:20.438Z",
+      "updatedAt": "2026-08-10T13:38:20.438Z"
+    },
+    "mock_cs_1786369660032_hkuex": {
+      "id": "mock_cs_1786369660032_hkuex",
+      "stripeSessionId": "mock_cs_1786369660032_hkuex",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:47:40.033Z",
+      "updatedAt": "2026-08-10T13:47:40.033Z"
+    },
+    "cs_e2e_1786369659761": {
+      "id": "cs_e2e_1786369659761",
+      "stripeSessionId": "cs_e2e_1786369659761",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:47:40.034Z",
+      "updatedAt": "2026-08-10T13:47:40.034Z"
+    },
+    "mock_sub_1786369660036_m6rs3": {
+      "id": "mock_sub_1786369660036_m6rs3",
+      "stripeSessionId": "mock_sub_1786369660036_m6rs3",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T13:47:40.036Z",
+      "updatedAt": "2026-08-10T13:47:40.036Z"
+    },
+    "mock_cs_1786370593202_pkxq3": {
+      "id": "mock_cs_1786370593202_pkxq3",
+      "stripeSessionId": "mock_cs_1786370593202_pkxq3",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:03:13.202Z",
+      "updatedAt": "2026-08-10T14:03:13.202Z"
+    },
+    "cs_e2e_1786370592958": {
+      "id": "cs_e2e_1786370592958",
+      "stripeSessionId": "cs_e2e_1786370592958",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:03:13.204Z",
+      "updatedAt": "2026-08-10T14:03:13.204Z"
+    },
+    "mock_sub_1786370593206_govfi": {
+      "id": "mock_sub_1786370593206_govfi",
+      "stripeSessionId": "mock_sub_1786370593206_govfi",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:03:13.206Z",
+      "updatedAt": "2026-08-10T14:03:13.206Z"
+    },
+    "mock_cs_1786370658502_xec8v": {
+      "id": "mock_cs_1786370658502_xec8v",
+      "stripeSessionId": "mock_cs_1786370658502_xec8v",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:04:18.502Z",
+      "updatedAt": "2026-08-10T14:04:18.502Z"
+    },
+    "cs_e2e_1786370656354": {
+      "id": "cs_e2e_1786370656354",
+      "stripeSessionId": "cs_e2e_1786370656354",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:04:18.505Z",
+      "updatedAt": "2026-08-10T14:04:18.506Z"
+    },
+    "mock_sub_1786370658508_lmmdt": {
+      "id": "mock_sub_1786370658508_lmmdt",
+      "stripeSessionId": "mock_sub_1786370658508_lmmdt",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:04:18.508Z",
+      "updatedAt": "2026-08-10T14:04:18.508Z"
+    },
+    "mock_cs_1786370723654_00vc3": {
+      "id": "mock_cs_1786370723654_00vc3",
+      "stripeSessionId": "mock_cs_1786370723654_00vc3",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:05:23.655Z",
+      "updatedAt": "2026-08-10T14:05:23.655Z"
+    },
+    "cs_e2e_1786370723363": {
+      "id": "cs_e2e_1786370723363",
+      "stripeSessionId": "cs_e2e_1786370723363",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:05:23.656Z",
+      "updatedAt": "2026-08-10T14:05:23.657Z"
+    },
+    "mock_sub_1786370723659_8sorf": {
+      "id": "mock_sub_1786370723659_8sorf",
+      "stripeSessionId": "mock_sub_1786370723659_8sorf",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:05:23.659Z",
+      "updatedAt": "2026-08-10T14:05:23.659Z"
+    },
+    "mock_cs_1786371454576_hqwf5": {
+      "id": "mock_cs_1786371454576_hqwf5",
+      "stripeSessionId": "mock_cs_1786371454576_hqwf5",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:17:34.576Z",
+      "updatedAt": "2026-08-10T14:17:34.576Z"
+    },
+    "cs_e2e_1786371454273": {
+      "id": "cs_e2e_1786371454273",
+      "stripeSessionId": "cs_e2e_1786371454273",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:17:34.577Z",
+      "updatedAt": "2026-08-10T14:17:34.578Z"
+    },
+    "mock_sub_1786371454580_ghkwa": {
+      "id": "mock_sub_1786371454580_ghkwa",
+      "stripeSessionId": "mock_sub_1786371454580_ghkwa",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:17:34.580Z",
+      "updatedAt": "2026-08-10T14:17:34.580Z"
+    },
+    "mock_cs_1786371573060_j18nh": {
+      "id": "mock_cs_1786371573060_j18nh",
+      "stripeSessionId": "mock_cs_1786371573060_j18nh",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:19:33.061Z",
+      "updatedAt": "2026-08-10T14:19:33.061Z"
+    },
+    "cs_e2e_1786371571233": {
+      "id": "cs_e2e_1786371571233",
+      "stripeSessionId": "cs_e2e_1786371571233",
+      "email": "customer@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:19:33.063Z",
+      "updatedAt": "2026-08-10T14:19:33.064Z"
+    },
+    "mock_sub_1786371573066_6yvea": {
+      "id": "mock_sub_1786371573066_6yvea",
+      "stripeSessionId": "mock_sub_1786371573066_6yvea",
+      "email": "user@example.com",
+      "targetUrl": "https://crawlsignal.com",
+      "hostname": "crawlsignal.com",
+      "status": "paid",
+      "amount": 1100,
+      "currency": "usd",
+      "product": "full_diagnosis",
+      "createdAt": "2026-08-10T14:19:33.066Z",
+      "updatedAt": "2026-08-10T14:19:33.066Z"
+    }
+  },
+  "monitoring_subscriptions": {
+    "monitoring-cancel-test.com": {
+      "id": "monitoring-cancel-test.com",
+      "domain": "monitoring-cancel-test.com",
+      "email": "subscriber@cancel.com",
+      "pricePaid": "$25/month",
+      "active": false,
+      "subscribedAt": "2026-08-10T12:42:57.672Z",
+      "lastScanAt": null,
+      "history": [],
+      "status": "canceled",
+      "updatedAt": "2026-08-10T13:04:17.021Z",
+      "cancelAtPeriodEnd": false,
+      "canceledAt": "2026-08-10T13:04:17.021Z"
+    },
+    "site-alpha.com": {
+      "id": "site-alpha.com",
+      "domain": "site-alpha.com",
+      "email": "usera@example.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_A123",
+      "stripeSubscriptionId": "sub_test_123",
+      "userSessionId": "user_sess_A_123",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T13:30:05.875Z",
+      "subscribedAt": "2026-08-10T13:27:14.994Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:30:05.875Z"
+    },
+    "site-beta.com": {
+      "id": "site-beta.com",
+      "domain": "site-beta.com",
+      "email": "userb@example.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_B456",
+      "stripeSubscriptionId": "sub_test_456",
+      "userSessionId": "user_sess_B_456",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:27:14.996Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:30:05.874Z"
+    },
+    "test-body-forgery-1786369099190.test": {
+      "id": "test-body-forgery-1786369099190.test",
+      "domain": "test-body-forgery-1786369099190.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "7ca27ce8cc0d06ca9d5fee7d0523c719793f3de1e926fdfbacf580fd85788153",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.191Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.191Z"
+    },
+    "domain-b-idor-1786369099193.test": {
+      "id": "domain-b-idor-1786369099193.test",
+      "domain": "domain-b-idor-1786369099193.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "87c98d091a135b6d373853653ab11c7d55ebba063f5bfbf4ea5bdd97246ea958",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.193Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.193Z"
+    },
+    "domain-c-1786369099194.test": {
+      "id": "domain-c-1786369099194.test",
+      "domain": "domain-c-1786369099194.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "86d9266ac395e296086de7cbb98f382e48a1551f53edd578875c28ef40c7269f",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.194Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.194Z"
+    },
+    "domain-react-1786369099196.test": {
+      "id": "domain-react-1786369099196.test",
+      "domain": "domain-react-1786369099196.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "28d583990d1a80bde97b02d1a1d8fad3cac5d9caccc499af5d4b9e6a68eb5824",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.196Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.196Z"
+    },
+    "domain-portal-1786369099198.test": {
+      "id": "domain-portal-1786369099198.test",
+      "domain": "domain-portal-1786369099198.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "b6966c7fef16f77757390478d78f05c9e6a1b4fa9f902927a2eb2a13faf4abbc",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.198Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.198Z"
+    },
+    "domain-owner-1786369099199.test": {
+      "id": "domain-owner-1786369099199.test",
+      "domain": "domain-owner-1786369099199.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "5d799249d72c1db439f7f4ce46dfa804a9694dc72ff4d95b9a3d45cb57bea32e",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T13:38:19.199Z",
+      "subscribedAt": "2026-08-10T13:38:19.199Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.200Z"
+    },
+    "domain-idem-1786369099200.test": {
+      "id": "domain-idem-1786369099200.test",
+      "domain": "domain-idem-1786369099200.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "21d7ef2dd5407b69067ad7265d649256ebba40e04d5667aeaa4fd1d1cf9554f9",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T13:38:19.201Z",
+      "subscribedAt": "2026-08-10T13:38:19.200Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.201Z"
+    },
+    "persist-1786369099201.test": {
+      "id": "persist-1786369099201.test",
+      "domain": "persist-1786369099201.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "de6c76cd3c1017dad01dddd377e93a087ef2c4c4ee1cdc11b925d0aab16c3b9d",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:38:19.201Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:38:19.201Z"
+    },
+    "test-body-forgery-1786369658556.test": {
+      "id": "test-body-forgery-1786369658556.test",
+      "domain": "test-body-forgery-1786369658556.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "fb5a5e10717692237197c917faf5726d46f5d259eaf98d540a20a5f147b74398",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.556Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.556Z"
+    },
+    "domain-b-idor-1786369658558.test": {
+      "id": "domain-b-idor-1786369658558.test",
+      "domain": "domain-b-idor-1786369658558.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a3fdefbd041a5e27b38d6549f3702d78a45e109a77fe86ef77aa5ef838ca0ce7",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.558Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.558Z"
+    },
+    "domain-c-1786369658558.test": {
+      "id": "domain-c-1786369658558.test",
+      "domain": "domain-c-1786369658558.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "de51331dfb5d331e50986bf736d110a5d069ade04b7eb819350414c45c11ee6e",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.558Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.558Z"
+    },
+    "domain-react-1786369658559.test": {
+      "id": "domain-react-1786369658559.test",
+      "domain": "domain-react-1786369658559.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a73698b997703bf090161bbe9b2e93d5f44c89a380c5bfd027aa8d1344ffa537",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.559Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.559Z"
+    },
+    "domain-portal-1786369658560.test": {
+      "id": "domain-portal-1786369658560.test",
+      "domain": "domain-portal-1786369658560.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "9fa2a7e3a67323dd5024468ba898064302b9acc80d92bd390b6293076ad18b9a",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.560Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.560Z"
+    },
+    "domain-owner-1786369658561.test": {
+      "id": "domain-owner-1786369658561.test",
+      "domain": "domain-owner-1786369658561.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "516807e2657c8823d758209afa97eb4bc753a7e61e95fc5982a87b3f2fd99e52",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T13:47:38.561Z",
+      "subscribedAt": "2026-08-10T13:47:38.561Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.561Z"
+    },
+    "domain-idem-1786369658562.test": {
+      "id": "domain-idem-1786369658562.test",
+      "domain": "domain-idem-1786369658562.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "14feda0184802069536afad5b1c9eb3444e4a3ba60a682c487faf2d89bd2da58",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T13:47:38.564Z",
+      "subscribedAt": "2026-08-10T13:47:38.562Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.564Z"
+    },
+    "persist-1786369658565.test": {
+      "id": "persist-1786369658565.test",
+      "domain": "persist-1786369658565.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "4128064766da2fd9a9ab6ea2eb5553a957ee820750ee8e6bceabbc88fd32d601",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:47:38.565Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T13:47:38.565Z"
+    },
+    "example.com": {
+      "id": "example.com",
+      "domain": "example.com",
+      "email": "user@example.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "bd656b22e82ec6ab513e885e14d84ed5a1923061b548700802140b542a92291a",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T13:53:05.256Z",
+      "lastScanAt": "2026-08-10T13:53:41.832Z",
+      "history": [
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:41.832Z",
+          "previousScanDate": "2026-08-10T13:53:41.822Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370021832_kvfft",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:41.832Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:41.822Z",
+          "previousScanDate": "2026-08-10T13:53:41.053Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370021822_3t55v",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:41.822Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:41.053Z",
+          "previousScanDate": "2026-08-10T13:53:41.049Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370021053_3qjen",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:41.053Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:41.049Z",
+          "previousScanDate": "2026-08-10T13:53:40.372Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370021049_c73yj",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:41.049Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:40.372Z",
+          "previousScanDate": "2026-08-10T13:53:40.368Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370020372_zchcu",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:40.372Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:40.368Z",
+          "previousScanDate": "2026-08-10T13:53:39.768Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370020368_v9l2v",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:40.368Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:39.768Z",
+          "previousScanDate": "2026-08-10T13:53:39.756Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370019768_hs3g8",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:39.768Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:39.756Z",
+          "previousScanDate": "2026-08-10T13:53:39.311Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370019756_7cmfy",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:39.756Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:39.311Z",
+          "previousScanDate": "2026-08-10T13:53:39.307Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370019311_3b3wg",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:39.311Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:39.307Z",
+          "previousScanDate": "2026-08-10T13:53:38.521Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370019307_4axbm",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:39.307Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:38.521Z",
+          "previousScanDate": "2026-08-10T13:53:38.489Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370018521_bb20r",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:38.521Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:38.489Z",
+          "previousScanDate": "2026-08-10T13:53:37.902Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370018489_8mikf",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:38.489Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:37.902Z",
+          "previousScanDate": "2026-08-10T13:53:37.897Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370017902_gzpki",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:37.902Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:37.897Z",
+          "previousScanDate": "2026-08-10T13:53:37.292Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370017897_35d3y",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:37.897Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:37.292Z",
+          "previousScanDate": "2026-08-10T13:53:37.289Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370017292_ibh3g",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:37.292Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:37.289Z",
+          "previousScanDate": "2026-08-10T13:53:36.824Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370017289_vw7t5",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:37.289Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:36.824Z",
+          "previousScanDate": "2026-08-10T13:53:36.813Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370016824_jo0lr",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:36.824Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:36.813Z",
+          "previousScanDate": "2026-08-10T13:53:34.558Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370016813_yrspf",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:36.813Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:34.558Z",
+          "previousScanDate": "2026-08-10T13:53:34.555Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370014558_nd27v",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:34.558Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        },
+        {
+          "domain": "example.com",
+          "scanDate": "2026-08-10T13:53:34.555Z",
+          "previousScanDate": "2026-08-10T13:53:33.931Z",
+          "alerts": [],
+          "snapshot": {
+            "id": "snap_1786370014555_u2i4d",
+            "domain": "example.com",
+            "timestamp": "2026-08-10T13:53:34.555Z",
+            "robotsContent": "",
+            "robotsDisallowsAll": false,
+            "sitemapUrlCount": 0,
+            "sitemapErrorsCount": 1,
+            "sitemapExists": false,
+            "pageStatuses": {
+              "https://example.com": 200
+            },
+            "noindexUrls": [],
+            "canonicalUrls": {
+              "https://example.com": null
+            },
+            "discoveredPagesCount": 1,
+            "discoveredPages": [
+              "https://example.com"
+            ],
+            "internalLinksCount": 0,
+            "gscData": {
+              "gscVerifiedDataAvailable": false,
+              "googleConsoleAlert": false
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-08-10T13:53:43.399Z"
+    },
+    "test-body-forgery-1786370591950.test": {
+      "id": "test-body-forgery-1786370591950.test",
+      "domain": "test-body-forgery-1786370591950.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "4d8ebffd02a78425d6800499adc9200fc10b0a5f703a8c54aceae84565818664",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.951Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.951Z"
+    },
+    "domain-b-idor-1786370591952.test": {
+      "id": "domain-b-idor-1786370591952.test",
+      "domain": "domain-b-idor-1786370591952.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "0d9fca4df2a73c0398f7b09925a66baa2366b176b8826d822f3354d197453194",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.952Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.952Z"
+    },
+    "domain-c-1786370591953.test": {
+      "id": "domain-c-1786370591953.test",
+      "domain": "domain-c-1786370591953.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "297fed71a9a0b7224ed107bf00e57f38ef268c3d5541c78d76fc410268e5b913",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.954Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.954Z"
+    },
+    "domain-react-1786370591954.test": {
+      "id": "domain-react-1786370591954.test",
+      "domain": "domain-react-1786370591954.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "287fe48dbb699c0f242a61876bab1e8238481dbdbad4a178f53343c3d71952ad",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.955Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.955Z"
+    },
+    "domain-portal-1786370591956.test": {
+      "id": "domain-portal-1786370591956.test",
+      "domain": "domain-portal-1786370591956.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "eedf0e0de76889db8df2d6c25fa4edee3afcba325ee221262f5a448f7c5e9629",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.956Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.956Z"
+    },
+    "domain-owner-1786370591958.test": {
+      "id": "domain-owner-1786370591958.test",
+      "domain": "domain-owner-1786370591958.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "3c5f286e769e22c3653d169c9350523f4f66ca3dc608b4baaa6df7075d6a5206",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:03:11.959Z",
+      "subscribedAt": "2026-08-10T14:03:11.958Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.960Z"
+    },
+    "domain-idem-1786370591961.test": {
+      "id": "domain-idem-1786370591961.test",
+      "domain": "domain-idem-1786370591961.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "ab776005490d410e4df1845ea11cf69fa952ea145274db75d98ea5a32aa123ca",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:03:11.963Z",
+      "subscribedAt": "2026-08-10T14:03:11.961Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.963Z"
+    },
+    "persist-1786370591964.test": {
+      "id": "persist-1786370591964.test",
+      "domain": "persist-1786370591964.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "1516a53eb5bc3d5ad5ba8d9be009f599779245a9f2438fa757036cd726f439aa",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:03:11.964Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:03:11.964Z"
+    },
+    "test-body-forgery-1786370655181.test": {
+      "id": "test-body-forgery-1786370655181.test",
+      "domain": "test-body-forgery-1786370655181.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a4ffda7002aa7e57a6f698ec7234b0ed727bf6309f3cfecce77923f4d9ac0d6b",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.182Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.182Z"
+    },
+    "domain-b-idor-1786370655184.test": {
+      "id": "domain-b-idor-1786370655184.test",
+      "domain": "domain-b-idor-1786370655184.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "e6e2e1a1996e23273480d3e77fc075404742dab30838bce90d78a0c442a7309d",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.184Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.184Z"
+    },
+    "domain-c-1786370655185.test": {
+      "id": "domain-c-1786370655185.test",
+      "domain": "domain-c-1786370655185.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "5d8d7eb449de8f1f6716e8d70eefd7341046d5575dff7d1f3d4500c256a175f6",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.186Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.186Z"
+    },
+    "domain-react-1786370655187.test": {
+      "id": "domain-react-1786370655187.test",
+      "domain": "domain-react-1786370655187.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a2c02df28e1026498c5ff9094b8922cbb91ac7cb3e5c0acff1278f9a235acf9b",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.187Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.187Z"
+    },
+    "domain-portal-1786370655188.test": {
+      "id": "domain-portal-1786370655188.test",
+      "domain": "domain-portal-1786370655188.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "dc14ac61714c864d954346dbdf79da7085411b9af63c45b621c65229596504e6",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.188Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.188Z"
+    },
+    "domain-owner-1786370655189.test": {
+      "id": "domain-owner-1786370655189.test",
+      "domain": "domain-owner-1786370655189.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "7c3133a1b4071a38b2fba7a10c11cef4644810ac8e442bb51d11ad3deb35e2ba",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:04:15.190Z",
+      "subscribedAt": "2026-08-10T14:04:15.189Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.190Z"
+    },
+    "domain-idem-1786370655191.test": {
+      "id": "domain-idem-1786370655191.test",
+      "domain": "domain-idem-1786370655191.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "b956064b9ec0e247ca6de75ba930388eda8f890d12b46120f3a63432621e58d0",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:04:15.193Z",
+      "subscribedAt": "2026-08-10T14:04:15.191Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.193Z"
+    },
+    "persist-1786370655194.test": {
+      "id": "persist-1786370655194.test",
+      "domain": "persist-1786370655194.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "47d8a19d468776fb166fee2122618dd2e6d11f4e076bbef9aca5220eba1b2fa8",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:04:15.194Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:04:15.194Z"
+    },
+    "test-body-forgery-1786370722038.test": {
+      "id": "test-body-forgery-1786370722038.test",
+      "domain": "test-body-forgery-1786370722038.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "46d66a913b94ee552d26f901d8182ce17076bfb08dce05780690f162d93edf5b",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.039Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.039Z"
+    },
+    "domain-b-idor-1786370722040.test": {
+      "id": "domain-b-idor-1786370722040.test",
+      "domain": "domain-b-idor-1786370722040.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "162ddeffb613e2b1d3d6ab652bdd7446bf2c64d9dc4f4da3a4fffe12fdc8ffdc",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.040Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.040Z"
+    },
+    "domain-c-1786370722041.test": {
+      "id": "domain-c-1786370722041.test",
+      "domain": "domain-c-1786370722041.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "1c83b76892b641513d0b93466ef4c773594897794fb4391a4eda990a79ca4bec",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.041Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.041Z"
+    },
+    "domain-react-1786370722042.test": {
+      "id": "domain-react-1786370722042.test",
+      "domain": "domain-react-1786370722042.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "cf890c58731900d4a58271d077b0a4ec8e3b75091e5bc10462252bd400b42099",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.042Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.042Z"
+    },
+    "domain-portal-1786370722043.test": {
+      "id": "domain-portal-1786370722043.test",
+      "domain": "domain-portal-1786370722043.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "ec407fc357b2703803d66251c76735907f41e0437af4641d4f8517a9fba3e1b8",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.043Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.043Z"
+    },
+    "domain-owner-1786370722044.test": {
+      "id": "domain-owner-1786370722044.test",
+      "domain": "domain-owner-1786370722044.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "f4c77bf067e2979ca10341f51f075a4e65b9aa64672ba8da963dd181ab574064",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:05:22.045Z",
+      "subscribedAt": "2026-08-10T14:05:22.044Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.046Z"
+    },
+    "domain-idem-1786370722046.test": {
+      "id": "domain-idem-1786370722046.test",
+      "domain": "domain-idem-1786370722046.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "4460aa2f25f93f30dcde1443ad51cc75f989a952121fb074bd32c9b2ef634075",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:05:22.048Z",
+      "subscribedAt": "2026-08-10T14:05:22.047Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.048Z"
+    },
+    "persist-1786370722049.test": {
+      "id": "persist-1786370722049.test",
+      "domain": "persist-1786370722049.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a030f8a0c3ee5069ec0a3f5a37d78c0e38b8aa9dc97b4a9d00fc6d0f7771218b",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:05:22.049Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:05:22.049Z"
+    },
+    "test-body-forgery-1786371453164.test": {
+      "id": "test-body-forgery-1786371453164.test",
+      "domain": "test-body-forgery-1786371453164.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "bf61967decc41adbf3fbda62f72d25ce574db8fe0cb189ba55ced2b495ad6dd8",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.164Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.164Z"
+    },
+    "domain-b-idor-1786371453166.test": {
+      "id": "domain-b-idor-1786371453166.test",
+      "domain": "domain-b-idor-1786371453166.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "420d5c17b4c73617e35deafdc90265a1dea988f787d0b4577108ef0912f16045",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.166Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.166Z"
+    },
+    "domain-c-1786371453168.test": {
+      "id": "domain-c-1786371453168.test",
+      "domain": "domain-c-1786371453168.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "ba8d2af932648e44d48b0226f6431a629632b1bb11d33a005556533f970188f0",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.168Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.168Z"
+    },
+    "domain-react-1786371453170.test": {
+      "id": "domain-react-1786371453170.test",
+      "domain": "domain-react-1786371453170.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "cccfe614cbeabcd36edbc5a13a511d5566ece18a4c52fcce81c275abda895357",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.170Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.170Z"
+    },
+    "domain-portal-1786371453172.test": {
+      "id": "domain-portal-1786371453172.test",
+      "domain": "domain-portal-1786371453172.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "3300df634f9d2641b0ae6df22a7b8e33b78705ab2616cec4ededd5e7d7487297",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.173Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.173Z"
+    },
+    "domain-owner-1786371453174.test": {
+      "id": "domain-owner-1786371453174.test",
+      "domain": "domain-owner-1786371453174.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "adc222019d91d0d1035e16bfa7599221dbc4ea3277278512bcf73180827250e1",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:17:33.177Z",
+      "subscribedAt": "2026-08-10T14:17:33.174Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.177Z"
+    },
+    "domain-idem-1786371453178.test": {
+      "id": "domain-idem-1786371453178.test",
+      "domain": "domain-idem-1786371453178.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "a4e8c19ad671589b5d7f289ac0cb5141f038fa5fdced110e1216584bfd5d7eec",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:17:33.181Z",
+      "subscribedAt": "2026-08-10T14:17:33.178Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.182Z"
+    },
+    "persist-1786371453186.test": {
+      "id": "persist-1786371453186.test",
+      "domain": "persist-1786371453186.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "0187cc2245a41f637a7446e641b1f4066c1fed38bfa538b47313f696e5916951",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:17:33.186Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:17:33.186Z"
+    },
+    "test-body-forgery-1786371569542.test": {
+      "id": "test-body-forgery-1786371569542.test",
+      "domain": "test-body-forgery-1786371569542.test",
+      "email": "a@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "5344c3b942feb2a751badd87593845b11858ce76b0cdf48747d72b03d1cea7cf",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.542Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.542Z"
+    },
+    "domain-b-idor-1786371569546.test": {
+      "id": "domain-b-idor-1786371569546.test",
+      "domain": "domain-b-idor-1786371569546.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "8a46a5c85770e3d69774373020aa81dec4a606f42d5ac2fdd09e093f5bc1d2eb",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.546Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.546Z"
+    },
+    "domain-c-1786371569548.test": {
+      "id": "domain-c-1786371569548.test",
+      "domain": "domain-c-1786371569548.test",
+      "email": "c@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "af2faaacb47226c90de1a5c59f85840fe132a5503468d5bb902fc758fcbd5ac2",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.548Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.548Z"
+    },
+    "domain-react-1786371569549.test": {
+      "id": "domain-react-1786371569549.test",
+      "domain": "domain-react-1786371569549.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "9a524d2a2ecbcfbca91139014e5f91e53d5db11bad89cb2672342120ead687fe",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.550Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.550Z"
+    },
+    "domain-portal-1786371569551.test": {
+      "id": "domain-portal-1786371569551.test",
+      "domain": "domain-portal-1786371569551.test",
+      "email": "b@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": "cus_mock_b",
+      "stripeSubscriptionId": null,
+      "userSessionId": "5a72bd082606eca0992597379d8917467a2540355aedc0c00fe1e1abddbaf425",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.551Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.551Z"
+    },
+    "domain-owner-1786371569553.test": {
+      "id": "domain-owner-1786371569553.test",
+      "domain": "domain-owner-1786371569553.test",
+      "email": "owner@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "dbba8b05e77a776f6e23ebab8c392e32dc5edc7ac1dd05f9a34bb6fcc5ddf58d",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:19:29.555Z",
+      "subscribedAt": "2026-08-10T14:19:29.553Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.555Z"
+    },
+    "domain-idem-1786371569556.test": {
+      "id": "domain-idem-1786371569556.test",
+      "domain": "domain-idem-1786371569556.test",
+      "email": "idem@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "e41a4ef0d8a66afca19f7538d9d05acf0163fecb2debaf148ff873b42468c2b9",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": true,
+      "canceledAt": "2026-08-10T14:19:29.559Z",
+      "subscribedAt": "2026-08-10T14:19:29.556Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.559Z"
+    },
+    "persist-1786371569561.test": {
+      "id": "persist-1786371569561.test",
+      "domain": "persist-1786371569561.test",
+      "email": "persist@test.com",
+      "pricePaid": "$25/month",
+      "active": true,
+      "status": "active",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "userSessionId": "8f6b0481c7ec404dadcd75525cd48a30cf3852630cb38e951de40eb1826af4cd",
+      "trialStart": null,
+      "trialEnd": null,
+      "currentPeriodStart": null,
+      "currentPeriodEnd": null,
+      "cancelAtPeriodEnd": false,
+      "canceledAt": null,
+      "subscribedAt": "2026-08-10T14:19:29.561Z",
+      "lastScanAt": null,
+      "history": [],
+      "updatedAt": "2026-08-10T14:19:29.561Z"
+    }
+  },
+  "analytics_events": [
+    {
+      "id": "evt_1786365302240_oie6g",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.240Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786365302241_dwhex",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.241Z"
+    },
+    {
+      "id": "evt_1786365302241_cryhn",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.241Z"
+    },
+    {
+      "id": "evt_1786365302242_ohm4e",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.242Z"
+    },
+    {
+      "id": "evt_1786365302242_icrnr",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.242Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365302242_q3frb",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.242Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365302242_3qg9k",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.242Z"
+    },
+    {
+      "id": "evt_1786365302242_nmj8g",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:02.242Z"
+    },
+    {
+      "id": "evt_1786365340941_j92aa",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.941Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786365340942_6sxvd",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.942Z"
+    },
+    {
+      "id": "evt_1786365340942_1m9wq",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.942Z"
+    },
+    {
+      "id": "evt_1786365340942_yicqj",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.942Z"
+    },
+    {
+      "id": "evt_1786365340943_46r1j",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.943Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365340943_uerv3",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.943Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365340943_wbzz2",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.943Z"
+    },
+    {
+      "id": "evt_1786365340943_8deus",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:35:40.943Z"
+    },
+    {
+      "id": "evt_1786365418321_kpwjm",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.321Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786365418322_dm2rx",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.322Z"
+    },
+    {
+      "id": "evt_1786365418322_2v41a",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.322Z"
+    },
+    {
+      "id": "evt_1786365418322_9uwce",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.322Z"
+    },
+    {
+      "id": "evt_1786365418323_vq33r",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.323Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365418323_3jjg6",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.323Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365418323_zdaot",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.323Z"
+    },
+    {
+      "id": "evt_1786365418323_v6sh2",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:36:58.323Z"
+    },
+    {
+      "id": "evt_1786365776383_ft7pv",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.383Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786365776384_gcsnb",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.384Z"
+    },
+    {
+      "id": "evt_1786365776385_itdln",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.385Z"
+    },
+    {
+      "id": "evt_1786365776385_8935m",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.385Z"
+    },
+    {
+      "id": "evt_1786365776385_e6yjg",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.385Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365776386_oho4y",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.386Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786365776386_0wkz6",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.386Z"
+    },
+    {
+      "id": "evt_1786365776386_zil8m",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:42:56.386Z"
+    },
+    {
+      "id": "evt_1786366109145_ngadd",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.145Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786366109146_8kl8o",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.146Z"
+    },
+    {
+      "id": "evt_1786366109146_kgolu",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.146Z"
+    },
+    {
+      "id": "evt_1786366109146_tqhng",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.146Z"
+    },
+    {
+      "id": "evt_1786366109147_o5m7x",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.147Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786366109147_3nzh0",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.147Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786366109147_b2c39",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.147Z"
+    },
+    {
+      "id": "evt_1786366109147_x8ku0",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:48:29.147Z"
+    },
+    {
+      "id": "evt_1786366516174_3v0n0",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.174Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786366516175_h5iox",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.175Z"
+    },
+    {
+      "id": "evt_1786366516175_x1l2k",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.175Z"
+    },
+    {
+      "id": "evt_1786366516176_idrlq",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.176Z"
+    },
+    {
+      "id": "evt_1786366516176_dd9ii",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.176Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786366516176_pt7db",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.176Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786366516176_q6myj",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.176Z"
+    },
+    {
+      "id": "evt_1786366516177_aga7a",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T12:55:16.177Z"
+    },
+    {
+      "id": "evt_1786367055735_0g60m",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.735Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786367055736_mqupz",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.736Z"
+    },
+    {
+      "id": "evt_1786367055736_nfylg",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.736Z"
+    },
+    {
+      "id": "evt_1786367055736_y2hj6",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.736Z"
+    },
+    {
+      "id": "evt_1786367055737_rpq9b",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.737Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786367055737_lz7m9",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.737Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786367055737_e15qu",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.737Z"
+    },
+    {
+      "id": "evt_1786367055738_f2cup",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:04:15.738Z"
+    },
+    {
+      "id": "evt_1786368433911_wig96",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.911Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786368433913_c6nuk",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.913Z"
+    },
+    {
+      "id": "evt_1786368433914_ikq4j",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.914Z"
+    },
+    {
+      "id": "evt_1786368433914_y6wa9",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.914Z"
+    },
+    {
+      "id": "evt_1786368433915_yob46",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.915Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786368433915_i5ulg",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.915Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786368433916_xztql",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.916Z"
+    },
+    {
+      "id": "evt_1786368433916_rjxbn",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:27:13.916Z"
+    },
+    {
+      "id": "evt_1786368604884_c3yj2",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.884Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786368604885_esp2n",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.885Z"
+    },
+    {
+      "id": "evt_1786368604886_hvl0z",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.886Z"
+    },
+    {
+      "id": "evt_1786368604886_lcrtf",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.886Z"
+    },
+    {
+      "id": "evt_1786368604887_5ia16",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.887Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786368604887_lbi7w",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.887Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786368604887_czzmn",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.887Z"
+    },
+    {
+      "id": "evt_1786368604887_6ikqn",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:30:04.887Z"
+    },
+    {
+      "id": "evt_1786369098084_tb8s1",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.085Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786369098086_cm7qn",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.087Z"
+    },
+    {
+      "id": "evt_1786369098087_ao3el",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.087Z"
+    },
+    {
+      "id": "evt_1786369098087_tdlqv",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.087Z"
+    },
+    {
+      "id": "evt_1786369098088_e9si0",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.088Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786369098088_br0q4",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.088Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786369098088_fy24z",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.088Z"
+    },
+    {
+      "id": "evt_1786369098088_ka8ly",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:38:18.089Z"
+    },
+    {
+      "id": "evt_1786369657321_m6q1x",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.321Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786369657322_osrpf",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.323Z"
+    },
+    {
+      "id": "evt_1786369657323_lknll",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.323Z"
+    },
+    {
+      "id": "evt_1786369657324_ydd6n",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.324Z"
+    },
+    {
+      "id": "evt_1786369657324_e7ehx",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.324Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786369657324_mvmiy",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.324Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786369657325_bgvlf",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.325Z"
+    },
+    {
+      "id": "evt_1786369657325_ri91i",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:47:37.325Z"
+    },
+    {
+      "id": "evt_1786369985259_ulj1t",
+      "sessionId": "sess_uduia30",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:05.259Z"
+    },
+    {
+      "id": "evt_1786369985267_wjl4i",
+      "sessionId": "sess_0o0yyu0",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:05.267Z"
+    },
+    {
+      "id": "evt_1786369985979_4irfw",
+      "sessionId": "sess_sny4cwe",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:05.979Z"
+    },
+    {
+      "id": "evt_1786369985986_rjlkv",
+      "sessionId": "sess_d09mcfs",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:05.986Z"
+    },
+    {
+      "id": "evt_1786369986558_9b2qy",
+      "sessionId": "sess_lqghloo",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:06.558Z"
+    },
+    {
+      "id": "evt_1786369986567_kxbr7",
+      "sessionId": "sess_dro6mho",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:06.567Z"
+    },
+    {
+      "id": "evt_1786369987173_ijhwv",
+      "sessionId": "sess_k8g7mi4",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:07.173Z"
+    },
+    {
+      "id": "evt_1786369987181_oxro1",
+      "sessionId": "sess_y3fibw9",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:07.181Z"
+    },
+    {
+      "id": "evt_1786369987782_9daqc",
+      "sessionId": "sess_aewez8h",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:07.782Z"
+    },
+    {
+      "id": "evt_1786369987794_ntece",
+      "sessionId": "sess_0j4fxfk",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:07.794Z"
+    },
+    {
+      "id": "evt_1786369988380_u9x4s",
+      "sessionId": "sess_llcsmyi",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:08.380Z"
+    },
+    {
+      "id": "evt_1786369988393_nrrmh",
+      "sessionId": "sess_mj6a12j",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:08.393Z"
+    },
+    {
+      "id": "evt_1786369988933_969hf",
+      "sessionId": "sess_41mk0i0",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:08.933Z"
+    },
+    {
+      "id": "evt_1786369988939_zdz0x",
+      "sessionId": "sess_0gljn2d",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:08.939Z"
+    },
+    {
+      "id": "evt_1786369989434_9dulj",
+      "sessionId": "sess_vmfpbh1",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:09.434Z"
+    },
+    {
+      "id": "evt_1786369989442_2ojwv",
+      "sessionId": "sess_lph8zqq",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:09.442Z"
+    },
+    {
+      "id": "evt_1786369989922_pseyu",
+      "sessionId": "sess_o1rs5p4",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:09.922Z"
+    },
+    {
+      "id": "evt_1786369989929_fk8p7",
+      "sessionId": "sess_hhsvcej",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:09.929Z"
+    },
+    {
+      "id": "evt_1786369990430_i5h0l",
+      "sessionId": "sess_oz1dy4a",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:10.430Z"
+    },
+    {
+      "id": "evt_1786369990438_1yz1e",
+      "sessionId": "sess_m8xul03",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:10.438Z"
+    },
+    {
+      "id": "evt_1786369990935_cwe2v",
+      "sessionId": "sess_2qnsjeq",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:10.935Z"
+    },
+    {
+      "id": "evt_1786369990941_bpsyz",
+      "sessionId": "sess_8wqzcjb",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:10.941Z"
+    },
+    {
+      "id": "evt_1786369991435_z3d20",
+      "sessionId": "sess_mg7lol1",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:11.436Z"
+    },
+    {
+      "id": "evt_1786369991444_7tufg",
+      "sessionId": "sess_jp4ckj0",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:11.444Z"
+    },
+    {
+      "id": "evt_1786369991896_yshj1",
+      "sessionId": "sess_guxlbdv",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:11.896Z"
+    },
+    {
+      "id": "evt_1786369991901_996ts",
+      "sessionId": "sess_ucens1v",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:11.901Z"
+    },
+    {
+      "id": "evt_1786369992433_woop7",
+      "sessionId": "sess_eir1ifx",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:12.433Z"
+    },
+    {
+      "id": "evt_1786369992451_qepx4",
+      "sessionId": "sess_zcjwrag",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:12.451Z"
+    },
+    {
+      "id": "evt_1786369992956_joxw6",
+      "sessionId": "sess_y7e26al",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:12.956Z"
+    },
+    {
+      "id": "evt_1786369992963_gkj6r",
+      "sessionId": "sess_eugn0xa",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:12.963Z"
+    },
+    {
+      "id": "evt_1786369993630_kct94",
+      "sessionId": "sess_p26akl6",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:13.630Z"
+    },
+    {
+      "id": "evt_1786369993636_1zqe3",
+      "sessionId": "sess_hvulaal",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:13.636Z"
+    },
+    {
+      "id": "evt_1786369994382_29jhh",
+      "sessionId": "sess_wselz31",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:14.382Z"
+    },
+    {
+      "id": "evt_1786369994391_rsrfh",
+      "sessionId": "sess_4f3x7q6",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:14.391Z"
+    },
+    {
+      "id": "evt_1786369994973_ygxte",
+      "sessionId": "sess_tqwueg9",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:14.973Z"
+    },
+    {
+      "id": "evt_1786369994977_dvpda",
+      "sessionId": "sess_qg4bcmt",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:14.977Z"
+    },
+    {
+      "id": "evt_1786369995641_k02vt",
+      "sessionId": "sess_l9pbudq",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:15.641Z"
+    },
+    {
+      "id": "evt_1786369995649_kkw5h",
+      "sessionId": "sess_27js363",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:15.649Z"
+    },
+    {
+      "id": "evt_1786369996489_n17am",
+      "sessionId": "sess_7fnsphg",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:16.489Z"
+    },
+    {
+      "id": "evt_1786369996494_fw52w",
+      "sessionId": "sess_mlhsvxw",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:16.494Z"
+    },
+    {
+      "id": "evt_1786369997012_x7g2j",
+      "sessionId": "sess_tt5q8mj",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:17.012Z"
+    },
+    {
+      "id": "evt_1786369997019_4ovtt",
+      "sessionId": "sess_9yztg3x",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:17.019Z"
+    },
+    {
+      "id": "evt_1786369997514_xtqaz",
+      "sessionId": "sess_9h1wpcj",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:17.514Z"
+    },
+    {
+      "id": "evt_1786369997522_fjxcm",
+      "sessionId": "sess_jz2bekk",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:17.522Z"
+    },
+    {
+      "id": "evt_1786369998021_vk9kr",
+      "sessionId": "sess_ygyepx7",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:18.021Z"
+    },
+    {
+      "id": "evt_1786369998028_20crd",
+      "sessionId": "sess_w69yido",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:18.028Z"
+    },
+    {
+      "id": "evt_1786369998513_781zn",
+      "sessionId": "sess_gqr27ag",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:18.513Z"
+    },
+    {
+      "id": "evt_1786369998517_xfxsr",
+      "sessionId": "sess_a44jmjx",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:18.517Z"
+    },
+    {
+      "id": "evt_1786369999019_fbfvo",
+      "sessionId": "sess_x7t6k45",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:19.019Z"
+    },
+    {
+      "id": "evt_1786369999024_0083t",
+      "sessionId": "sess_4qsntgb",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:19.024Z"
+    },
+    {
+      "id": "evt_1786369999555_o458h",
+      "sessionId": "sess_u4ig673",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:19.555Z"
+    },
+    {
+      "id": "evt_1786369999564_nmj6m",
+      "sessionId": "sess_bsud8p7",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:19.564Z"
+    },
+    {
+      "id": "evt_1786370000164_t7hpp",
+      "sessionId": "sess_x009d53",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:20.164Z"
+    },
+    {
+      "id": "evt_1786370000173_fshy2",
+      "sessionId": "sess_ccul7jv",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:20.173Z"
+    },
+    {
+      "id": "evt_1786370000832_hqoys",
+      "sessionId": "sess_no85ngw",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:20.832Z"
+    },
+    {
+      "id": "evt_1786370000838_qcpa8",
+      "sessionId": "sess_myqxthw",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:20.838Z"
+    },
+    {
+      "id": "evt_1786370003367_gadx5",
+      "sessionId": "sess_pou1b1v",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:23.367Z"
+    },
+    {
+      "id": "evt_1786370003376_trlil",
+      "sessionId": "sess_ei3b5p5",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:23.376Z"
+    },
+    {
+      "id": "evt_1786370003937_s97av",
+      "sessionId": "sess_sypdqpx",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:23.937Z"
+    },
+    {
+      "id": "evt_1786370003946_6e672",
+      "sessionId": "sess_01gzbrl",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:23.947Z"
+    },
+    {
+      "id": "evt_1786370004461_ikeuk",
+      "sessionId": "sess_q4qhsvd",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:24.461Z"
+    },
+    {
+      "id": "evt_1786370004472_ydix3",
+      "sessionId": "sess_bg5ovvu",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:24.472Z"
+    },
+    {
+      "id": "evt_1786370005026_f6uxc",
+      "sessionId": "sess_c16ayuy",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:25.026Z"
+    },
+    {
+      "id": "evt_1786370005031_7c2p7",
+      "sessionId": "sess_ry7wcm0",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:25.031Z"
+    },
+    {
+      "id": "evt_1786370005591_lkp48",
+      "sessionId": "sess_80srewc",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:25.591Z"
+    },
+    {
+      "id": "evt_1786370005600_oxku8",
+      "sessionId": "sess_1yfc8xs",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:25.600Z"
+    },
+    {
+      "id": "evt_1786370006134_e4xdu",
+      "sessionId": "sess_tz6ttde",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:26.134Z"
+    },
+    {
+      "id": "evt_1786370006140_sr4ld",
+      "sessionId": "sess_xpsy8t5",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:26.140Z"
+    },
+    {
+      "id": "evt_1786370006616_zdosv",
+      "sessionId": "sess_4qz7qeq",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:26.616Z"
+    },
+    {
+      "id": "evt_1786370006623_viw4c",
+      "sessionId": "sess_wv6kits",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:26.623Z"
+    },
+    {
+      "id": "evt_1786370007240_6vlql",
+      "sessionId": "sess_imua3f9",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:27.240Z"
+    },
+    {
+      "id": "evt_1786370007248_ayl4r",
+      "sessionId": "sess_dwtde2l",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:27.248Z"
+    },
+    {
+      "id": "evt_1786370008188_v7s25",
+      "sessionId": "sess_0j0x3of",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:28.188Z"
+    },
+    {
+      "id": "evt_1786370008192_apvm5",
+      "sessionId": "sess_xrem55t",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:28.192Z"
+    },
+    {
+      "id": "evt_1786370009891_hoa3b",
+      "sessionId": "sess_g69yz0w",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:29.891Z"
+    },
+    {
+      "id": "evt_1786370009897_oz14w",
+      "sessionId": "sess_s4mke67",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:29.897Z"
+    },
+    {
+      "id": "evt_1786370010387_ytcng",
+      "sessionId": "sess_chhc60d",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:30.387Z"
+    },
+    {
+      "id": "evt_1786370010392_6zxnl",
+      "sessionId": "sess_7y4q3yf",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:30.392Z"
+    },
+    {
+      "id": "evt_1786370010975_387ia",
+      "sessionId": "sess_3q1ajjb",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:30.975Z"
+    },
+    {
+      "id": "evt_1786370010979_n0r2y",
+      "sessionId": "sess_9vrk15m",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:30.980Z"
+    },
+    {
+      "id": "evt_1786370011430_dfdig",
+      "sessionId": "sess_b65tz6n",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:31.430Z"
+    },
+    {
+      "id": "evt_1786370011440_2nfdw",
+      "sessionId": "sess_lriznrn",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:31.440Z"
+    },
+    {
+      "id": "evt_1786370011963_ttkel",
+      "sessionId": "sess_mxai9nu",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:31.963Z"
+    },
+    {
+      "id": "evt_1786370011968_wmc9o",
+      "sessionId": "sess_4fdxg9o",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:31.968Z"
+    },
+    {
+      "id": "evt_1786370012568_ibkwy",
+      "sessionId": "sess_b15z2sg",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:32.568Z"
+    },
+    {
+      "id": "evt_1786370012573_bz1x0",
+      "sessionId": "sess_rwv27j9",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:32.573Z"
+    },
+    {
+      "id": "evt_1786370013134_e52nx",
+      "sessionId": "sess_e2grvbw",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:33.134Z"
+    },
+    {
+      "id": "evt_1786370013141_xrdqq",
+      "sessionId": "sess_tmfrp4n",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:33.141Z"
+    },
+    {
+      "id": "evt_1786370013773_fr7dh",
+      "sessionId": "sess_g2yu9og",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:33.773Z"
+    },
+    {
+      "id": "evt_1786370013779_prsxx",
+      "sessionId": "sess_vdy3ano",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:33.779Z"
+    },
+    {
+      "id": "evt_1786370014406_xipn8",
+      "sessionId": "sess_39nzxrj",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:34.406Z"
+    },
+    {
+      "id": "evt_1786370014412_r126e",
+      "sessionId": "sess_6o8od06",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:34.412Z"
+    },
+    {
+      "id": "evt_1786370016640_udgvv",
+      "sessionId": "sess_9l2vnlc",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:36.640Z"
+    },
+    {
+      "id": "evt_1786370016644_tj0la",
+      "sessionId": "sess_dk19d73",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:36.644Z"
+    },
+    {
+      "id": "evt_1786370017103_13ubx",
+      "sessionId": "sess_42uwkwb",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:37.103Z"
+    },
+    {
+      "id": "evt_1786370017108_5g56c",
+      "sessionId": "sess_1zdjkom",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:37.108Z"
+    },
+    {
+      "id": "evt_1786370017754_1v0zg",
+      "sessionId": "sess_sjyyo1y",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:37.754Z"
+    },
+    {
+      "id": "evt_1786370017758_jsv39",
+      "sessionId": "sess_o8bcvek",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:37.758Z"
+    },
+    {
+      "id": "evt_1786370018310_ot2he",
+      "sessionId": "sess_9go59zk",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:38.310Z"
+    },
+    {
+      "id": "evt_1786370018315_8vyz2",
+      "sessionId": "sess_qe71a7q",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:38.315Z"
+    },
+    {
+      "id": "evt_1786370019117_0pzs2",
+      "sessionId": "sess_gsnanmv",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:39.117Z"
+    },
+    {
+      "id": "evt_1786370019131_13yda",
+      "sessionId": "sess_rrweiuu",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:39.131Z"
+    },
+    {
+      "id": "evt_1786370019612_5rh63",
+      "sessionId": "sess_1jho5k3",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:39.612Z"
+    },
+    {
+      "id": "evt_1786370019620_p923w",
+      "sessionId": "sess_aknn7f7",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:39.620Z"
+    },
+    {
+      "id": "evt_1786370020216_bzv0h",
+      "sessionId": "sess_tnklw9g",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:40.216Z"
+    },
+    {
+      "id": "evt_1786370020225_0dz67",
+      "sessionId": "sess_0ezx0rr",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:40.225Z"
+    },
+    {
+      "id": "evt_1786370020906_0u4yh",
+      "sessionId": "sess_e067opc",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:40.906Z"
+    },
+    {
+      "id": "evt_1786370020911_j5whm",
+      "sessionId": "sess_pky3g4s",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:40.911Z"
+    },
+    {
+      "id": "evt_1786370021655_a35hf",
+      "sessionId": "sess_xgn7sv6",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:41.656Z"
+    },
+    {
+      "id": "evt_1786370021660_lfamn",
+      "sessionId": "sess_kw3sjsg",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:41.660Z"
+    },
+    {
+      "id": "evt_1786370023390_hyach",
+      "sessionId": "sess_vg6l6nq",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:43.390Z"
+    },
+    {
+      "id": "evt_1786370023400_j7cfs",
+      "sessionId": "sess_r943u8w",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T13:53:43.401Z"
+    },
+    {
+      "id": "evt_1786370590878_aou6c",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.878Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786370590879_qegmz",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.880Z"
+    },
+    {
+      "id": "evt_1786370590880_lj4iw",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.880Z"
+    },
+    {
+      "id": "evt_1786370590881_9l0ds",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.881Z"
+    },
+    {
+      "id": "evt_1786370590881_g3kvb",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.882Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370590882_5sc3j",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.882Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370590883_iddaw",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.883Z"
+    },
+    {
+      "id": "evt_1786370590883_y5qym",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:03:10.883Z"
+    },
+    {
+      "id": "evt_1786370653950_2x5jh",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.951Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786370653952_d28ny",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.952Z"
+    },
+    {
+      "id": "evt_1786370653953_s14ms",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.953Z"
+    },
+    {
+      "id": "evt_1786370653953_1toji",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.953Z"
+    },
+    {
+      "id": "evt_1786370653954_8akmm",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.954Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370653955_zio5f",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.955Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370653955_vv8zs",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.955Z"
+    },
+    {
+      "id": "evt_1786370653956_ss7o8",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:04:13.956Z"
+    },
+    {
+      "id": "evt_1786370720820_zjefc",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.820Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786370720822_86q4s",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.822Z"
+    },
+    {
+      "id": "evt_1786370720823_v3c86",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.823Z"
+    },
+    {
+      "id": "evt_1786370720824_8oqm3",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.824Z"
+    },
+    {
+      "id": "evt_1786370720825_t5ac0",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.825Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370720826_e39ee",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.826Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786370720826_sgfpq",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.826Z"
+    },
+    {
+      "id": "evt_1786370720827_m8xez",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:05:20.827Z"
+    },
+    {
+      "id": "evt_1786371452070_aphsi",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.070Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786371452072_k3qxe",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.072Z"
+    },
+    {
+      "id": "evt_1786371452073_gub47",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.073Z"
+    },
+    {
+      "id": "evt_1786371452074_c2cxg",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.074Z"
+    },
+    {
+      "id": "evt_1786371452075_xjbk4",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.075Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786371452075_a5a4x",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.075Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786371452076_3fh88",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.077Z"
+    },
+    {
+      "id": "evt_1786371452078_7llt7",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:17:32.078Z"
+    },
+    {
+      "id": "evt_1786371568042_fa5f3",
+      "sessionId": "sess_123",
+      "eventType": "analysis_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.042Z",
+      "metadata": {
+        "ref": "test"
+      }
+    },
+    {
+      "id": "evt_1786371568046_oi5fh",
+      "sessionId": "sess_123",
+      "eventType": "successful_scan",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.046Z"
+    },
+    {
+      "id": "evt_1786371568048_hlsye",
+      "sessionId": "sess_123",
+      "eventType": "result_viewed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.048Z"
+    },
+    {
+      "id": "evt_1786371568049_2dtxm",
+      "sessionId": "sess_123",
+      "eventType": "email_captured",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.049Z"
+    },
+    {
+      "id": "evt_1786371568050_nsb7u",
+      "sessionId": "sess_123",
+      "eventType": "checkout_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.050Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786371568051_83l8q",
+      "sessionId": "sess_123",
+      "eventType": "purchase_completed",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.051Z",
+      "metadata": {
+        "price": 11
+      }
+    },
+    {
+      "id": "evt_1786371568053_f8czc",
+      "sessionId": "sess_123",
+      "eventType": "report_opened",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.053Z"
+    },
+    {
+      "id": "evt_1786371568054_xub4y",
+      "sessionId": "sess_123",
+      "eventType": "monitoring_started",
+      "path": "example.com",
+      "timestamp": "2026-08-10T14:19:28.054Z"
+    }
+  ]
+}
