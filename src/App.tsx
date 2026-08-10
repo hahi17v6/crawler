@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { SupportedLanguage } from './types';
 import { detectDeviceLanguage, translations } from './i18n/translations';
 import { Header } from './components/Header';
@@ -149,6 +150,8 @@ export default function App() {
           onClose={handleCloseModal}
         />
       )}
+      
+      <SpeedInsights />
     </div>
   );
 }
