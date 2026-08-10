@@ -41,25 +41,23 @@ async function runTests() {
       assert(Array.isArray(config?.rewrites), '1d. vercel.json has rewrites');
       assert(Array.isArray(config?.crons), '1e. vercel.json has crons config');
 
-      const apiRewrite = config?.rewrites?.find((r: any) => r.source === '/api/:path*');
-      assert(!!apiRewrite, '1f. API rewrite rule present');
-
       const spaRewrite = config?.rewrites?.find((r: any) => r.source === '/(.*)');
       assert(!!spaRewrite, '1g. SPA fallback rewrite rule present');
 
       const cronJob = config?.crons?.[0];
       assert(cronJob?.path === '/api/cron/run-monitoring', '1h. Cron targets /api/cron/run-monitoring');
-      assert(typeof cronJob?.schedule === 'string', '1i. Cron has a schedule');
+      assert(!!cronJob?.schedule, '1i. Cron has a schedule');
 
-      const fnConfig = config?.functions?.['api/index.ts'];
+      const fnConfig = config?.functions?.['api/[[...path]].ts'];
       assert(fnConfig?.maxDuration >= 60, '1j. API function maxDuration >= 60s (Vercel Pro required)');
     }
   }
 
-  // ─── 2. api/index.ts exists ───────────────────────────────────────────────
+  // ─── 2. api/[[...path]].ts entry point exists ──────────────────────────────
   {
-    console.log('\n► Test 2: api/index.ts entry point exists...');
-    assert(fs.existsSync(path.join(root, 'api', 'index.ts')), '2. api/index.ts exists');
+    console.log('\n► Test 2: api/[[...path]].ts entry point exists...');
+    const apiIndexPath = path.join(root, 'api', '[[...path]].ts');
+    assert(fs.existsSync(apiIndexPath), '2. api/[[...path]].ts exists');
   }
 
   // ─── 3. server.ts does NOT import Vite at top level ──────────────────────

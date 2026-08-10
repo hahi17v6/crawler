@@ -19,10 +19,10 @@ async function runTests() {
 
   console.log('\n🧪 Starting Vercel Production API + Stripe Audit Tests...\n');
 
-  // ─── 1. api/index.ts validity ──────────────────────────────────────────────
+  // ─── 1. api/[[...path]].ts validity ───────────────────────────────────────────
   {
-    console.log('► Test 1: api/index.ts has no invalid TypeScript extensions in imports...');
-    const apiIndex = fs.readFileSync(path.join(root, 'api', 'index.ts'), 'utf-8');
+    console.log('► Test 1: api/[[...path]].ts has no invalid TypeScript extensions in imports...');
+    const apiIndex = fs.readFileSync(path.join(root, 'api', '[[...path]].ts'), 'utf-8');
     assert(!apiIndex.includes("from '../server.ts'"), '1a. export { default } from "../server"; does NOT use .ts extension');
   }
 
@@ -74,7 +74,7 @@ async function runTests() {
     assert(serverTs.includes('express.raw({ type: "application/json" })'), '7b. Uses raw body for signature verification');
     assert(serverTs.indexOf('express.raw') < serverTs.indexOf('express.json()'), '7c. Raw parser precedes JSON parser');
     const vercelJson = fs.readFileSync(path.join(root, 'vercel.json'), 'utf-8');
-    assert(vercelJson.includes('"source": "/api/:path*",'), '7d. Vercel API rewrite allows all /api/* requests, including webhook');
+    assert(fs.existsSync(path.join(root, 'api', '[[...path]].ts')), '7d. Vercel native routing uses [[...path]].ts catch-all');
   }
 
   // ─── 8. Session Cookie ─────────────────────────────────────────────────────
