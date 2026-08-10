@@ -48,7 +48,15 @@ export default function App() {
         body: JSON.stringify({ url }),
       });
 
-      const json = await res.json();
+      const contentType = res.headers.get('content-type');
+      let json: any;
+      if (contentType && contentType.includes('application/json')) {
+        json = await res.json();
+      } else {
+        const text = await res.text();
+        throw new Error(`Invalid response from server (Status: ${res.status}). Expected JSON, got: ${contentType || 'empty'}. Body: ${text.substring(0, 100)}`);
+      }
+
       if (res.ok && json.success) {
         setCrawlData(json.data);
         setChecksData(json.checks || []);

@@ -63,7 +63,15 @@ export const ScannerModal: React.FC<ScannerModalProps> = ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, forceUnlock: Boolean(forceUnlock) }),
       });
-      const data = await res.json();
+      const contentType = res.headers.get('content-type');
+      let data: any;
+      if (contentType && contentType.includes('application/json')) {
+        data = await res.json();
+      } else {
+        const text = await res.text();
+        throw new Error(`Invalid response (Status: ${res.status}). Expected JSON, got: ${contentType || 'empty'}. Body: ${text.substring(0, 100)}`);
+      }
+
       if (data.success && data.paidConfirmed && data.report) {
         setFullFixPlan(data.report);
         setIsPaid(true);
@@ -89,7 +97,14 @@ export const ScannerModal: React.FC<ScannerModalProps> = ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, email }),
       });
-      const data = await res.json();
+      const contentType = res.headers.get('content-type');
+      let data: any;
+      if (contentType && contentType.includes('application/json')) {
+        data = await res.json();
+      } else {
+        const text = await res.text();
+        throw new Error(`Invalid checkout response (Status: ${res.status}). Got: ${contentType || 'empty'}. Body: ${text.substring(0, 100)}`);
+      }
 
       if (data.success) {
         if (data.checkoutUrl) {

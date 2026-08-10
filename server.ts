@@ -43,7 +43,14 @@ initCronScheduler();
     }
   );
 
-  app.use(express.json());
+  app.use((req, res, next) => {
+    // Vercel serverless environment automatically parses application/json into req.body.
+    // If express.json() runs again, it might empty the already parsed body.
+    if (process.env.VERCEL && req.headers['content-type']?.includes('application/json') && req.body && Object.keys(req.body).length > 0) {
+      return next();
+    }
+    express.json()(req, res, next);
+  });
 
   // Session Security Middleware
   app.use("/api", (req, res, next) => {
@@ -75,6 +82,34 @@ initCronScheduler();
   // API Health Check
   app.get("/api/health", (_req, res) => {
     res.json({ status: "ok", service: "CrawlSignal Technical Crawler API" });
+  });
+
+  // Vercel Debug Endpoints
+  app.get("/api/debug/request", (req, res) => {
+    return res.json({
+      method: req.method,
+      url: req.url,
+      originalUrl: req.originalUrl,
+      path: req.path,
+      baseUrl: req.baseUrl,
+      contentType: req.headers["content-type"],
+      bodyType: typeof req.body,
+      isBodyEmpty: !req.body || Object.keys(req.body).length === 0,
+      env: {
+        nodeEnv: process.env.NODE_ENV,
+        vercel: process.env.VERCEL
+      }
+    });
+  });
+
+  app.post("/api/debug/body", (req, res) => {
+    return res.json({
+      method: req.method,
+      contentType: req.headers["content-type"],
+      bodyExists: !!req.body && Object.keys(req.body).length > 0,
+      body: req.body,
+      rawBodyLength: req.headers["content-length"]
+    });
   });
 
   // Analytics Track Endpoint

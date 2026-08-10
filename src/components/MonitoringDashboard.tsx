@@ -96,7 +96,14 @@ export const MonitoringDashboard: React.FC<MonitoringDashboardProps> = ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, email }),
       });
-      const data = await res.json();
+      const contentType = res.headers.get('content-type');
+      let data: any;
+      if (contentType && contentType.includes('application/json')) {
+        data = await res.json();
+      } else {
+        const text = await res.text();
+        throw new Error(`Invalid response (Status: ${res.status}). Got: ${contentType || 'empty'}. Body: ${text.substring(0, 100)}`);
+      }
 
       if (data.success) {
         if (data.checkoutUrl) {
