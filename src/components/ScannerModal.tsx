@@ -94,6 +94,7 @@ export const ScannerModal: React.FC<ScannerModalProps> = ({
     try {
       const res = await fetch('/api/create-checkout-session', {
         method: 'POST',
+        credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, email }),
       });

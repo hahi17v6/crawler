@@ -93,6 +93,7 @@ export const MonitoringDashboard: React.FC<MonitoringDashboardProps> = ({
     try {
       const res = await fetch('/api/monitoring/create-subscription-session', {
         method: 'POST',
+        credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url, email }),
       });
