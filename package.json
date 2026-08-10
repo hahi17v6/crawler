@@ -8,7 +8,7 @@
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
     "clean": "rm -rf dist",
-    "test": "tsx server/tests/i18n.test.ts && tsx server/tests/checksEngine.test.ts && tsx server/tests/diagnosisBrain.test.ts && tsx server/tests/fixPlanGenerator.test.ts && tsx server/tests/monitoringEngine.test.ts && tsx server/tests/aiVisibility.test.ts && tsx server/tests/rateLimiter.test.ts && tsx server/tests/ssrfGuard.test.ts && tsx server/tests/analyticsService.test.ts && tsx server/tests/stripeSecurity.test.ts && tsx server/tests/e2eUserJourney.test.ts && tsx server/tests/monitoringUI.test.ts && tsx server/tests/vercelCompatibility.test.ts && tsx server/tests/crawlerBudget.test.ts",
+    "test": "tsx server/tests/i18n.test.ts && tsx server/tests/checksEngine.test.ts && tsx server/tests/diagnosisBrain.test.ts && tsx server/tests/fixPlanGenerator.test.ts && tsx server/tests/monitoringEngine.test.ts && tsx server/tests/aiVisibility.test.ts && tsx server/tests/rateLimiter.test.ts && tsx server/tests/ssrfGuard.test.ts && tsx server/tests/analyticsService.test.ts && tsx server/tests/stripeSecurity.test.ts && tsx server/tests/e2eUserJourney.test.ts && tsx server/tests/monitoringUI.test.ts && tsx server/tests/vercelCompatibility.test.ts && tsx server/tests/crawlerBudget.test.ts && tsx server/tests/productionApi.test.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

@@ -8,4 +8,4 @@
  * The Express app is initialised at module level in server.ts so that
  * Firestore connections and other singletons are reused across warm invocations.
  */
-export { default } from '../server.ts';
+export { default } from '../server';
